@@ -13,4 +13,7 @@ describe 'Fizzbuzz' do
   it 'fizzbuzz 14' do
     expect(fizzbuzz(14)). to eq 14
   end
+  it 'fizzbuzz 0' do
+    expect(fizzbuzz(0)). to eq 0
+  end
 end

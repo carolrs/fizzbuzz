@@ -1,5 +1,7 @@
 def fizzbuzz (i)
-  if i % 3 == 0 && i % 5 == 0
+  if i == 0
+    return i
+  elsif i % 3 == 0 && i % 5 == 0
     return "Fizzbuzz"
   elsif i % 3 == 0
     return "Fizz"
